@@ -70,7 +70,9 @@
     <td>Delete</td>
   </tr> 
     <tr>
-        <td class="dsname">Array</td>
+        <td  style="text-align: left;
+    font-weight: bold;
+    text-decoration: underline;">Array</td>
         <td class="o1">O(1)</td>
         <td class="on">O(n)</td>
         <td class="o1">O(1)</td>
@@ -83,4 +85,5 @@
         <td class="o1">O(1)</td>
         <td class="o1">O(1)</td>
     </tr>
-</table># data-structures-and-complexity
+</table>
+# data-structures-and-complexity
