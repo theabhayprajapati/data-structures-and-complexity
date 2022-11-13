@@ -1,40 +1,57 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="github-markdown.css">
+
 <style>
-td{
+
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+    td{
     text-align: center;
     border: 1px solid black;
 }
-td.dsname{
+    td.dsname{
     text-align: left;
     font-weight: bold;
     text-decoration: underline;
 
 }
-td.o1{
+    td.o1{
     background-color: green;
     color:white;
 }
-td.ologn{
+    td.ologn{
     background-color:lightgreen;
     color:black;
 }
-td.on{
+    td.on{
     background-color: yellow;
     color: black;
 }
-td.onlogn{
+    td.onlogn{
     background-color:orange;
     color:black;
 }
-td.on2{
+    td.on2{
     background-color: red;
     color:white;
 }
 
-td.onper{
+    td.onper{
     background-color: darkred;
     color:black;
 }
-td.o2n{
+    td.o2n{
      background-color: red;
     color:black;
 }
